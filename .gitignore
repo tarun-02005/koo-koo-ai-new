@@ -24,15 +24,26 @@ wheels/
 venv/
 ENV/
 env/
-.venv
+.venv/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 
-# Model files (if too large for git)
-# Uncomment if needed
-# *.h5
-# model.h5
+# Training Notebook (not needed for deployment)
+Bird_Sound_Classification.ipynb
+
+# Documentation files (keep locally, not on GitHub)
+DEPLOYMENT.md
+DESIGN.md
+QUICKSTART.md
+
+# Setup scripts (not needed on GitHub)
+github_setup.ps1
+run_app.bat
+
+# Duplicate model files
+model (2).h5
 
 # Dataset
 Voice of Birds/
@@ -48,7 +59,7 @@ Voice of Birds/
 .DS_Store
 Thumbs.db
 
-# Streamlit
+# Streamlit local config (use cloud config instead)
 .streamlit/
 
 # Logs
