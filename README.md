@@ -5,20 +5,6 @@ A deep learning-powered web application for classifying bird species from audio 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16+-orange.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28-red.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-
-## 📚 Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Architecture](#model-architecture)
-- [Dataset](#dataset)
-- [Deployment](#deployment)
-- [Screenshots](#screenshots)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## ✨ Features
 
@@ -123,22 +109,6 @@ The application will open in your default browser at `http://localhost:8501`
 python -m streamlit run app.py
 ```
 
-## 📤 Deployment
-
-### Deploy to Streamlit Cloud (FREE)
-
-1. **Sign Up**: Go to https://share.streamlit.io/
-2. **Connect GitHub**: Authorize Streamlit to access your repository
-3. **Deploy**:
-   - Click "New app"
-   - Select repository: `tarun-02005/koo-koo-ai-new`
-   - Branch: `master`
-   - Main file: `app.py`
-   - Click "Deploy!"
-4. **Access**: Your app will be live at `https://YOUR-APP-NAME.streamlit.app`
-
-**Live Demo**: This project is deployed at [https://koo-koo-ai.streamlit.app/](https://koo-koo-ai.streamlit.app/)
-
 ## 🧠 Model Architecture
 
 ### Optimized CNN Model
@@ -196,38 +166,6 @@ Output: 114 bird species classes
 - **Format**: MP3 audio files
 - **Features**: MFCC (40 coefficients extracted at 22050 Hz)
 
-## 🌐 Alternative Deployment Options
-
-### Deploy to Heroku
-
-1. Create `Procfile`:
-```
-web: sh setup.sh && streamlit run app.py
-```
-
-2. Create `setup.sh`:
-```bash
-mkdir -p ~/.streamlit/
-
-echo "\
-[server]\n\
-headless = true\n\
-port = $PORT\n\
-enableCORS = false\n\
-\n\
-" > ~/.streamlit/config.toml
-```
-
-3. Deploy:
-```bash
-heroku create your-app-name
-git push heroku master
-```
-
-### Deploy to AWS/Google Cloud
-
-Refer to the respective cloud provider's documentation for deploying Streamlit apps.
-
 ## 📸 Screenshots
 
 ### Main Interface
@@ -276,11 +214,7 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Authors
+## ‍💻 Authors
 
 - **Tarun Kumar** - [GitHub](https://github.com/tarun-02005) | [LinkedIn](https://www.linkedin.com/in/tarun-kumar-359150257/)
 
