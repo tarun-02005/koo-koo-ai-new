@@ -3,7 +3,7 @@
 A deep learning-powered web application for classifying bird species from audio recordings using Convolutional Neural Networks (CNN) and MFCC features.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange.svg)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16+-orange.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
@@ -46,8 +46,8 @@ A deep learning-powered web application for classifying bird species from audio 
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/bird-sound-classification.git
-cd bird-sound-classification
+git clone https://github.com/tarun-02005/koo-koo-ai-new.git
+cd koo-koo-ai-new
 ```
 
 ### Step 2: Create Virtual Environment (Recommended)
@@ -84,9 +84,6 @@ python -m streamlit run app.py
 
 # Option 2: Direct command (if streamlit is in PATH)
 streamlit run app.py
-
-# Option 3: Double-click (Windows)
-run_app.bat
 ```
 
 The application will open in your default browser at `http://localhost:8501`
@@ -118,7 +115,7 @@ The application will open in your default browser at `http://localhost:8501`
 
 ## 🌐 Live Demo
 
-**Streamlit Cloud**: [Coming Soon - Deploy Instructions Below]
+**🚀 Try it now**: [https://koo-koo-ai.streamlit.app/](https://koo-koo-ai.streamlit.app/)
 
 **Local Demo**:
 ```bash
@@ -126,38 +123,7 @@ The application will open in your default browser at `http://localhost:8501`
 python -m streamlit run app.py
 ```
 
-## 📤 GitHub & Deployment
-
-### Quick GitHub Setup
-
-**Option 1: Automated Script (Windows)**
-```powershell
-# Run the automated setup script
-.\github_setup.ps1
-```
-
-**Option 2: Manual Setup**
-```bash
-# 1. Initialize Git
-git init
-
-# 2. Configure Git
-git config --global user.name "Your Name"
-git config --global user.email "your@email.com"
-
-# 3. Add files
-git add .
-
-# 4. Commit
-git commit -m "Initial commit: Bird Classification AI"
-
-# 5. Create repository on GitHub (https://github.com/new)
-
-# 6. Add remote and push
-git remote add origin https://github.com/YOUR_USERNAME/bird-classification.git
-git branch -M main
-git push -u origin main
-```
+## 📤 Deployment
 
 ### Deploy to Streamlit Cloud (FREE)
 
@@ -165,20 +131,13 @@ git push -u origin main
 2. **Connect GitHub**: Authorize Streamlit to access your repository
 3. **Deploy**:
    - Click "New app"
-   - Select repository: `YOUR_USERNAME/bird-classification`
-   - Branch: `main`
+   - Select repository: `tarun-02005/koo-koo-ai-new`
+   - Branch: `master`
    - Main file: `app.py`
    - Click "Deploy!"
 4. **Access**: Your app will be live at `https://YOUR-APP-NAME.streamlit.app`
 
-### Detailed Deployment Guide
-
-See **[DEPLOYMENT.md](DEPLOYMENT.md)** for complete deployment instructions including:
-- Step-by-step GitHub setup
-- Streamlit Cloud deployment
-- Alternative hosting options (Heroku, Render, Hugging Face)
-- Handling large model files
-- Troubleshooting common issues
+**Live Demo**: This project is deployed at [https://koo-koo-ai.streamlit.app/](https://koo-koo-ai.streamlit.app/)
 
 ## 🧠 Model Architecture
 
@@ -237,17 +196,7 @@ Output: 114 bird species classes
 - **Format**: MP3 audio files
 - **Features**: MFCC (40 coefficients extracted at 22050 Hz)
 
-## 🌐 Deployment
-
-### Deploy to Streamlit Cloud
-
-1. Push your code to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub repository
-4. Configure deployment settings:
-   - Main file: `app.py`
-   - Python version: 3.8+
-5. Click "Deploy"
+## 🌐 Alternative Deployment Options
 
 ### Deploy to Heroku
 
@@ -272,7 +221,7 @@ enableCORS = false\n\
 3. Deploy:
 ```bash
 heroku create your-app-name
-git push heroku main
+git push heroku master
 ```
 
 ### Deploy to AWS/Google Cloud
@@ -302,21 +251,19 @@ Refer to the respective cloud provider's documentation for deploying Streamlit a
 ## 📁 Project Structure
 
 ```
-bird-sound-classification/
+koo-koo-ai-new/
 │
 ├── app.py                          # Main Streamlit application
-├── Bird_Sound_Classification.ipynb # Jupyter notebook for training
 ├── model.h5                        # Trained CNN model
 ├── prediction.json                 # Label mapping dictionary
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # Project documentation
+├── .gitignore                      # Git ignore file
 │
-├── screenshots/                    # Application screenshots
-│   ├── main_interface.png
-│   ├── prediction_results.png
-│   └── visualizations.png
-│
-└── .gitignore                      # Git ignore file
+└── screenshots/                    # Application screenshots (to be added)
+    ├── main_interface.png
+    ├── prediction_results.png
+    └── visualizations.png
 ```
 
 ## 🤝 Contributing
@@ -335,7 +282,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Authors
 
-- Your Name - [GitHub](https://github.com/yourusername)
+- **Tarun Kumar** - [GitHub](https://github.com/tarun-02005) | [LinkedIn](https://www.linkedin.com/in/tarun-kumar-359150257/)
 
 ## 🙏 Acknowledgments
 
@@ -348,9 +295,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any questions or feedback, please reach out:
 
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourname)
+- Email: tarun2005bansal@gmail.com
+- GitHub: [@tarun-02005](https://github.com/tarun-02005)
+- LinkedIn: [Tarun Kumar](https://www.linkedin.com/in/tarun-kumar-359150257/)
 
 ## 🔮 Future Improvements
 
