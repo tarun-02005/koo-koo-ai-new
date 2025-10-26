@@ -541,7 +541,7 @@ def main():
             st.markdown("""
             <div style='text-align: center; padding: 1rem;'>
                 <div style='font-size: 5rem;'>🐦</div>
-                <h2 style='color: white; margin-top: 0.5rem;'>BirdAI</h2>
+                <h2 style='color: white; margin-top: 0.5rem;'>KooKoo AI</h2>
             </div>
             """, unsafe_allow_html=True)
         
@@ -601,7 +601,7 @@ def main():
         <div style='text-align: center; color: rgba(255,255,255,0.7); font-size: 0.85rem; padding: 1rem;'>
             <p>Made with ❤️ using</p>
             <p><strong>TensorFlow & Streamlit</strong></p>
-            <p style='margin-top: 1rem;'>© 2025 BirdAI</p>
+            <p style='margin-top: 1rem;'>© 2025 KooKoo AI</p>
         </div>
         """, unsafe_allow_html=True)
     
@@ -777,7 +777,7 @@ def main():
             <div style='text-align: center;'>
                 <div style='font-size: 5rem; margin-bottom: 1rem;'>🎵</div>
                 <h2 style='color: #667eea; font-size: 2.5rem; font-weight: 700;'>
-                    Welcome to BirdAI Classification System
+                    Welcome to KooKoo AI Classification System
                 </h2>
                 <p style='font-size: 1.3rem; color: #666; margin: 1.5rem 0;'>
                     Upload a bird sound audio file to identify the species using our advanced AI model
@@ -929,16 +929,20 @@ def main():
             © 2025 KooKoo AI | Made with ❤️ for bird enthusiasts and researchers
         </p>
         <div style='margin-top: 1.5rem;'>
-            <a href='https://github.com/yourusername/bird-classification' style='color: #667eea; text-decoration: none; margin: 0 1rem;'>
-                📁 GitHub
+            <a href='https://github.com/tarun-02005/koo-koo-ai-new' target='_blank' style='color: #667eea; text-decoration: none; margin: 0 1rem; font-weight: 600;'>
+                📁 GitHub Repository
             </a>
-            <a href='#' style='color: #667eea; text-decoration: none; margin: 0 1rem;'>
+            <a href='mailto:tarun2005bansal@gmail.com' style='color: #667eea; text-decoration: none; margin: 0 1rem; font-weight: 600;'>
                 📧 Contact
             </a>
-            <a href='#' style='color: #667eea; text-decoration: none; margin: 0 1rem;'>
-                📚 Documentation
+            <a href='https://www.linkedin.com/in/tarun-kumar-359150257/' target='_blank' style='color: #667eea; text-decoration: none; margin: 0 1rem; font-weight: 600;'>
+                � LinkedIn
             </a>
         </div>
+        <p style='color: #999; font-size: 0.85rem; margin-top: 1.5rem;'>
+            Developed by <strong>Tarun Kumar</strong> | 
+            <a href='https://github.com/tarun-02005' target='_blank' style='color: #667eea; text-decoration: none;'>@tarun-02005</a>
+        </p>
     </div>
     """, unsafe_allow_html=True)
 
