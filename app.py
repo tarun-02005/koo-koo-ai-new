@@ -12,7 +12,7 @@ import os
 
 # Page configuration
 st.set_page_config(
-    page_title="🐦 Bird Sound Classification",
+    page_title="🐦 KooKoo AI",
     page_icon="🎵",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -526,7 +526,7 @@ def main():
     # Professional Header
     st.markdown("""
     <div class='main-header'>
-        <h1>🎵 Bird Sound Classification AI 🐦</h1>
+        <h1>🎵 KooKoo AI 🐦</h1>
         <p>Advanced Deep Learning System for Identifying 114 Bird Species</p>
     </div>
     """, unsafe_allow_html=True)
@@ -923,10 +923,10 @@ def main():
     st.markdown("<br><br>", unsafe_allow_html=True)
     st.markdown("""
     <div class='footer'>
-        <h3 style='color: #667eea; margin-bottom: 1rem;'>🎵 Bird Sound Classification AI</h3>
+        <h3 style='color: #667eea; margin-bottom: 1rem;'>🎵 KooKoo AI</h3>
         <p style='color: #666;'>Powered by <strong>TensorFlow 2.x</strong> & <strong>Streamlit</strong></p>
         <p style='color: #999; font-size: 0.9rem; margin-top: 1rem;'>
-            © 2025 BirdAI | Made with ❤️ for bird enthusiasts and researchers
+            © 2025 KooKoo AI | Made with ❤️ for bird enthusiasts and researchers
         </p>
         <div style='margin-top: 1.5rem;'>
             <a href='https://github.com/yourusername/bird-classification' style='color: #667eea; text-decoration: none; margin: 0 1rem;'>

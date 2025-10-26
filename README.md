@@ -1,4 +1,4 @@
-# 🎵 Bird Sound Classification System 🐦
+# 🎵 KooKoo AI - Bird Species Classification 🐦
 
 A deep learning-powered web application for classifying bird species from audio recordings using Convolutional Neural Networks (CNN) and MFCC features.
 
